@@ -26,11 +26,11 @@ The on demand delivery of resources over the internet with pay as you go pricing
 4) SaaS
 
 ## Azure
+![azure_scope_level](azure_scope_levels.png)
+#### Management levels
+* Management groups: helps managing access, policy and complience for subsccriptions
+* Subscriptions: organisation uses subscriptions to manage costs
+* Resource groups: containers where resources would be contained in 
+* Resources: instances of services
+  
 
-#### Management levels and heirachy
-* Management groups
-* Subscriptions
-* Resource groups
-* Resources
-  
-  
