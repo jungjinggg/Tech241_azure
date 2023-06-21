@@ -1,5 +1,33 @@
 # How to create Virsual Machine on Azure
+## Git Bash
+### Generate SSH key
+1) Open git bash
+2) Navigate to home directory 
+```bash
+cd
+```
+3) Create a directory for SSH key
+```bash
+mkdir .ssh
+```
+4) Navigate into the .shh directory
+5) Create a keypair
+```bash
+ssh-keygen -t rsa -b 4096 -C <email>
+```
+6) Give file a name 
+7) Get public key
+```bash
+cat <file_name>.pub
+```
 
+## Azure Portal
+1) Navigate to SSH Keys and *create* (it's best practice to have the key the same name as on local machine)
+2) Select *upload existing public key*
+3) Copy and paste the public key from Git Bash
+4) Review and create  
+
+## Create a virtual machine
 select create > Azure virtual machine
 
 ![azure_vm_create](az_vm_create.png)

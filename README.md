@@ -62,3 +62,21 @@ Hypervisors is virtualisation software which is used to orchestrated and managed
 
 ## What is the importance of an image when creating an VM?
 An image is a template which contains an operating system, software and configurations
+
+## Create VM on Azure Diagram
+
+![vm_diagram](vm_diagram.png)
+
+| Title | Description |
+| ----------- | ----------- |
+| Region | Where everything lives |
+| Resource Groups | Like a container to organise everything you have |
+| Virtual Network | Like the house |
+| Sub Network | Like a room inside a house |
+| Virtual machine | like a computer/device in a room |
+| Disk | Stores files in the VM |
+| Network Interface Controller (NIC) | Communicate with the computer through this |
+| IP Address | Your public address |
+| Network Security Group (NSG) | Like a security system on the computer |
+| NSG rule - allow SSH/ HTTP | Rules to dicide what types of people (traffic) can access computer
+| SSH key | Like a padlock on the computer
