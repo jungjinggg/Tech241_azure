@@ -78,5 +78,5 @@ An image is a template which contains an operating system, software and configur
 | Network Interface Controller (NIC) | Communicate with the computer through this |
 | IP Address | Your public address |
 | Network Security Group (NSG) | Like a security system on the computer |
-| NSG rule - allow SSH/ HTTP | Rules to dicide what types of people (traffic) can access computer
-| SSH key | Like a padlock on the computer
+| NSG rule - allow SSH/ HTTP | Rules to dicide what types of people (traffic) can access computer |
+| SSH key | Like a padlock on the computer | 
