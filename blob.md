@@ -28,12 +28,12 @@ Account storage can contain multiple containers and each container can contain m
 ## Types of redundancy
 | Types | Description |
 | ----------- | ----------- |
-| LRS | Store data within a single data centre in a specific region. It is the cheapest but offers the lowest durability and availability. Suitable for non-critical data|
-| ZRS | Store data across multiple data centers within a single region. Comparing to LRS, higher durability and availability. Suitable for when higher redundancy and resilience are required within a region. |
-| GRS | Store data across a paired regions. It offers higher durability and availability compared to LRS and ZRS. Suitable for when data needs to be protected against regional disasters. |
-| RA-GRS | Provides the same redundancy as GRS with additional capability of read access to the replicated data in the secondary region. It allows read access for the second region when the first region fails.|
-| GZRS | Provides the benefits of GRS and ZRS. Suitable fot when data is required both zone level and regional level dedundancy. |
-| RA-GZRS | Provides the same redundancy as GZRS but with the additional capability of read acccess to the replicated data in the secondary region|
+| Locally Redundant Storage (LRS) | Store data within a single data centre in a specific region. It is the cheapest but offers the lowest durability and availability. Suitable for non-critical data|
+| Zone Redundant Stroage (ZRS) | Store data across multiple data centers within a single region. Comparing to LRS, higher durability and availability. Suitable for when higher redundancy and resilience are required within a region. |
+| Geo Redundant Storage (GRS) | Store data across a paired regions. It offers higher durability and availability compared to LRS and ZRS. Suitable for when data needs to be protected against regional disasters. |
+| Read-Access Geo Redundant Storage (RA-GRS) | Provides the same redundancy as GRS with additional capability of read access to the replicated data in the secondary region. It allows read access for the second region when the first region fails.|
+| Geo Zone Redundant Storage (GZRS) | Provides the benefits of GRS and ZRS. Suitable fot when data is required both zone level and regional level dedundancy. |
+| Read-Access Geo Zone Redundant Storage (RA-GZRS) | Provides the same redundancy as GZRS but with the additional capability of read acccess to the replicated data in the secondary region|
 
 ## Azure Storage tiers and availability 
 ![redundancy](redundancy.png)
